@@ -2,7 +2,7 @@
 
 A rigorous out-of-sample study of classic equity trading signals in Python: statistical arbitrage (pairs), cross-sectional momentum, Fourier seasonality, hidden-Markov regime detection, and Almgren-Chriss transaction costs, all validated with walk-forward testing. The headline finding is a negative one, honestly reported: these classic signals do not survive rigorous testing on modern large-cap US equities, and this project shows why with proper statistics rather than a cherry-picked backtest.
 
-*Boopesh Mohanraj · MS Engineering Management, Northeastern University*
+*Boopesh Mohanraj*
 
 ---
 
@@ -10,7 +10,9 @@ A rigorous out-of-sample study of classic equity trading signals in Python: stat
 
 Most trading-strategy projects report a great backtest. The problem is that a great backtest is easy to manufacture through overfitting, look-ahead bias, and period selection, and experienced quants discount them on sight. The harder and more valuable skill is testing a signal rigorously enough to know whether it is real, and being honest when it is not.
 
-This project takes four classic sources of equity alpha (pairs trading, momentum, calendar seasonality, and regime conditioning), tests each with the statistical machinery a research desk actually uses, and reports the results without dressing them up. On a 51-stock large-cap US universe over 2015 to 2024, the finding is consistent and unsurprising to anyone who follows the literature: **these signals have been largely arbitraged away in liquid large-caps, and none of them generates statistically significant alpha out-of-sample.** The value of the project is the rigor of the testing and the honesty of the reporting, not a performance number.
+This project takes four classic sources of equity alpha (pairs trading, momentum, calendar seasonality, and regime conditioning), tests each with the statistical machinery a research desk actually uses, and reports the results without dressing them up. 
+
+On a 51-stock large-cap US universe over 2015 to 2024, the finding is consistent and unsurprising to anyone who follows the literature: **these signals have been largely arbitraged away in liquid large-caps, and none of them generates statistically significant alpha out-of-sample.** The value of the project is the rigor of the testing and the honesty of the reporting, not a performance number.
 
 It runs six phases:
 
@@ -141,4 +143,4 @@ Stated plainly, because honest limitations are the entire point of this project:
 
 ---
 
-*Part of a six-project quantitative finance portfolio. Data from Tiingo and the FRED API. Research and educational project, not investment advice.*
+*Data from Tiingo and the FRED API*

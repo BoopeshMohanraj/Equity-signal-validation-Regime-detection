@@ -4,7 +4,7 @@ A rigorous out-of-sample study of classic equity trading signals in Python: stat
 
 *Boopesh Mohanraj*
 
----
+-
 
 ## What this is
 
